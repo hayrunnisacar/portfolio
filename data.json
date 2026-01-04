@@ -1,0 +1,212 @@
+[
+    {
+        "id": 1,
+        "category": "graphisme",
+        "title": { 
+            "fr": "Campagne institutionnelle", 
+            "en": "institutional campaign" },
+        "date": "Novembre 2025",
+        "description": { 
+            "fr": "ehhh", 
+            "en": "ehh" },
+        "skills": { 
+            "fr": "conduire la communication d’un evenement", 
+            "en": "Manage event communications" },
+        "context": { 
+            "fr": "Universitaire", 
+            "en": "Academic" },
+        "languages": [""],
+        "software": ["Figma", "InDesign"],
+        "link": "https://monsite.com",
+        "image": "img/campagne.webp"
+    },
+    {
+        "id": 2,
+        "category": "audiovisuel",
+        "title": { 
+            "fr": "Zugzwang", 
+            "en": "Zugzwang" },
+        "date": "Novembre 2025",
+        "description": { 
+            "fr": "ehhh", 
+            "en": "ehh" },
+        "skills": { 
+            "fr": "", 
+            "en": "" },
+        "context": { 
+            "fr": "Universitaire", 
+            "en": "Academic" },
+        "languages": [""],
+        "software": ["CapCut"],
+        "link": "https://www.youtube.com/watch?v=GrK-Xhnov8M",
+        "image": "img/echecs.webp"
+    },
+    {
+        "id": 3,
+        "category": "dev",
+        "title": { 
+            "fr": "Disnyz", 
+            "en": "Disnyz" },
+        "date": "Novembre 2025",
+        "description": { 
+            "fr": "ehhh", 
+            "en": "ehh" },
+        "skills": { 
+            "fr": "", 
+            "en": "" },
+        "context": { 
+            "fr": "Universitaire", 
+            "en": "Academic" },
+        "languages": ["HTML", "CSS", "JavaScript"],
+        "software": [""],
+        "link": "https://hayrunnisacar.github.io/disnyz/",
+        "image": "img/disnyz.webp"
+    },
+    {
+        "id": 4,
+        "category": "dev",
+        "title": { 
+            "fr": "Vidéos de communication association", 
+            "en": "Association communication videos" },
+        "date": "Juillet 2025",
+        "description": { 
+            "fr": "ehhh", 
+            "en": "ehh" },
+        "skills": { 
+            "fr": "", 
+            "en": "" },
+        "context": { 
+            "fr": "Personnel", 
+            "en": "Personal" },
+        "languages": [""],
+        "software": ["DaVinci Resolve", "Premiere Pro", "After Effects"],
+        "link": "https://www.youtube.com/watch?v=TAEajnBebkA&list=PL1G1injbok9J_z4-xwpv6cfmhmMZgiiQc",
+        "image": "img/ecuries.webp"
+    },
+     {
+        "id": 5,
+        "category": "graphisme",
+        "title": { 
+            "fr": "Affiche | Association", 
+            "en": "Association communication videos" },
+        "date": "Juin 2025",
+        "description": { 
+            "fr": "ehhh", 
+            "en": "ehh" },
+        "skills": { 
+            "fr": "", 
+            "en": "" },
+        "context": { 
+            "fr": "Personnel", 
+            "en": "Personal" },
+        "languages": [""],
+        "software": ["DaVinci Resolve", "Premiere Pro", "After Effects"],
+        "link": "https://www.youtube.com/watch?v=TAEajnBebkA&list=PL1G1injbok9J_z4-xwpv6cfmhmMZgiiQc",
+        "image": "img/poetikartier.webp"
+    },
+    {
+        "id": 6,
+        "category": "dev",
+        "title": { 
+            "fr": "Blog de recettes", 
+            "en": "Association communication videos" },
+        "date": "Juin 2025",
+        "description": { 
+            "fr": "ehhh", 
+            "en": "ehh" },
+        "skills": { 
+            "fr": "", 
+            "en": "" },
+        "context": { 
+            "fr": "Personnel", 
+            "en": "Personal" },
+        "languages": ["WordPress"],
+        "software": [""],
+        "link": "https://wpsem2.acar.projetsmmichamps.fr/",
+        "image": "img/hayblog.webp"
+    },
+    {
+        "id": 7,
+        "category": "dev",
+        "title": { 
+            "fr": "DramaTürk", 
+            "en": "DramaTürk" },
+        "date": "Juin 2025",
+        "description": { 
+            "fr": "ehhh", 
+            "en": "ehh" },
+        "skills": { 
+            "fr": "", 
+            "en": "" },
+        "context": { 
+            "fr": "Personnel", 
+            "en": "Personal" },
+        "languages": ["HTML", "CSS", "JavaScript", "PHP", "SQL"],
+        "software": [""],
+        "link": "https://webinventory.acar.projetsmmichamps.fr/",
+        "image": "img/dramaturk.webp"
+    },
+    {
+        "id": 8,
+        "category": "graphisme",
+        "title": { 
+            "fr": "Flyer", 
+            "en": "DramaTürk" },
+        "date": "Avril 2025",
+        "description": { 
+            "fr": "ehhh", 
+            "en": "ehh" },
+        "skills": { 
+            "fr": "", 
+            "en": "" },
+        "context": { 
+            "fr": "Personnel", 
+            "en": "Personal" },
+        "languages": [""],
+        "software": ["InDesign"],
+        "link": "",
+        "image": "img/stage.webp"
+    },
+    {
+        "id": 9,
+        "category": "audiovisuel",
+        "title": { 
+            "fr": "Voiture", 
+            "en": "DramaTürk" },
+        "date": "Avril 2025",
+        "description": { 
+            "fr": "ehhh", 
+            "en": "ehh" },
+        "skills": { 
+            "fr": "", 
+            "en": "" },
+        "context": { 
+            "fr": "Personnel", 
+            "en": "Personal" },
+        "languages": [""],
+        "software": ["After Effects"],
+        "link": "https://www.youtube.com/watch?v=UdRHrgP47KQ",
+        "image": "img/voiture.webp"
+    },
+    {
+        "id": 10,
+        "category": "audiovisuel",
+        "title": { 
+            "fr": "Interview", 
+            "en": "Interview" },
+        "date": "Décembre 2024",
+        "description": { 
+            "fr": "En première année de BUT MMI, j’ai eu l’occasion de réaliser, en groupe de cinq, l’interview du directeur de la publication du quotidien La Croix, Guillaume Goubert. Nous étions entièrement responsables du projet : la prise de contact, la planification, le tournage avec du matériel professionnel ainsi que le montage. Ce projet a été particulièrement passionnant et enrichissant, car il m’a permis de monter en compétences, notamment sur l’utilisation de logiciels de montage et sur les techniques de tournage (cadrage, gestion de la lumière, prise de son, manipulation du matériel professionnel).", 
+            "en": "In my first year of BUT MMI, I had the opportunity to interview Guillaume Goubert, editor-in-chief of the daily newspaper La Croix, as part of a group of five. We were entirely responsible for the project: making contact, planning, filming with professional equipment and editing. This project was particularly exciting and rewarding, as it allowed me to develop my skills, particularly in the use of editing software and filming techniques (framing, lighting management, sound recording, handling professional equipment)." },
+        "skills": { 
+            "fr": "Tourner et monter une vidéo", 
+            "en": "Filming and editing a video" },
+        "context": { 
+            "fr": "Universitaire", 
+            "en": "Academic" },
+        "languages": [""],
+        "software": ["Premiere Pro"],
+        "link": "https://www.youtube.com/watch?v=7x4MJbs9S0U&feature=youtu.be",
+        "image": "img/interview.webp"
+    }
+]

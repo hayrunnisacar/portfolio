@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio - Hayrunnisa ACAR</title>
+    <link rel="icon" type="image/x-icon" href="img/favicon.jpg">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://use.typekit.net/hrf4dol.css">
+</head>
+
+<body>
+    <nav>
+        <div class="language-selector">
+            <button id="btn-fr">FR</button>
+            <span>|</span>
+            <button id="btn-en">EN</button>
+        </div>
+
+        <ul>
+            <li>
+                <a href="#intro">Hayrunnisa ACAR</a>
+            </li>
+            <li>
+                <a href="#projects-section" data-key="nav-projects">PROJETS</a>
+            </li>
+            <li>
+                <a href="#about-us" data-key="nav-about">À PROPOS</a>
+            </li>
+            <li>
+                <a href="#contact" data-key="nav-contact">CONTACT</a>
+            </li>
+        </ul>
+    </nav>
+
+    <!-- <div class="scrolling-container">
+        <div class="scrolling-text">
+            <span class="scrolling-item">Monteuse vidéo - Développeuse Web - Réalisatrice - Cheffe de projet - </span>
+            
+            <span class="scrolling-item">Monteuse vidéo - Développeuse Web - Réalisatrice - Cheffe de projet - </span>
+        </div>
+    </div> -->
+
+    <main>
+        <!-- <section class="intro">
+            <h1>Fleurs card</h1>
+        </section> -->
+
+        <section id="projects-section">
+            <h1 id="project-title" data-key="title-projects">MES PROJETS</h1>
+
+            <div id="filters" class="filter hidden"> 
+                <button class="filter-btn active" data-categorie="all" data-key="filter-all">Tout</button>
+                <button class="filter-btn" data-categorie="dev" data-key="filter-dev">Développement Web</button>
+                <button class="filter-btn" data-categorie="audiovisuel" data-key="filter-av">Audiovisuel</button>
+                <button class="filter-btn" data-categorie="graphisme" data-key="filter-graph">Graphisme</button>
+            </div>
+        
+            <div class="projects-container"></div>
+        
+            <div class="container-quantity-projects">
+                <button id="quantity-projects" class="btn-quantity-projects">Voir tous mes projets</button>
+            </div>
+        </section>
+
+        <section id="about-us">
+            <h1 data-key="about-title">À PROPOS</h1>
+            <div class="about-container">
+                <img src="img/moi.webp" alt="" class="me">
+                <div class="about-text">
+                    <p data-key="about-desc">Moi, c’est Hayrunnisa, étudiante en BUT Métiers du Multimédia et de l’Internet. J’aime créer du contenu pour m’exprimer, que ce soit à travers la vidéo, la photographie ou les arts visuels. En parallèle, j’apprends le développement web pour mêler créativité et technique dans mes projets. Je suis actuellement à la recherche d’un stage de 4 mois à partir d’avril 2026, en audiovisuel ou community management.</p><br>
+                    <div class="link-perso">
+                        <a href="www.linkedin.com/in/hayrunnisa-acar">LinkedIn</a>
+                        <a href="" data-key="btn-cv">CV</a>
+                        <a href="https://github.com/hayrunnisacar">GitHub</a>
+                    </div>
+                </div>
+            </div>
+
+            <h2 class="title-skills" data-key="skills-title">Mes compétences</h2>
+            <div class="logo-container">
+                <div class="logo-container-1 skill-group">
+                    <div class="skill-item">
+                        <img src="img/logo/pr.png" alt="">
+                        <p>Premiere Pro</p>
+                    </div>
+                    <div class="skill-item">
+                        <img src="img/logo/ae.png" alt="">
+                        <p>After Effects</p>
+                    </div>
+                    <div class="skill-item">
+                        <img src="img/logo/capcut.png" alt="">
+                        <p>CapCut</p>
+                    </div>
+                    <!-- <img src="img/logo/davinci.png" alt=""> -->
+                </div>
+
+                <hr>
+
+                <div class="logo-container-2 skill-group">
+                    <div class="skill-item">
+                        <img src="img/logo/html.png" alt="">
+                        <p>HTML 5</p>
+                    </div>
+                    <div class="skill-item">
+                        <img src="img/logo/css.png" alt="">
+                        <p>CSS</p>
+                    </div>
+                    <div class="skill-item">
+                        <img src="img/logo/js.png" alt="">
+                        <p>JavaScript</p>
+                    </div>
+                    <div class="skill-item">
+                        <img src="img/logo/php.png" alt="">
+                        <p>PHP</p>
+                    </div>
+                    <div class="skill-item">
+                        <img src="img/logo/sql.png" alt="">
+                        <p>SQL</p>
+                    </div>
+                    <div class="skill-item">
+                        <img src="img/logo/wp.png" alt="">
+                        <p>WordPress</p>
+                    </div>
+                </div>
+                <hr>
+                <div class="logo-container-3 skill-group">
+                    <div class="skill-item">
+                        <img src="img/logo/figma.png" alt="">
+                        <p>Figma</p>
+                    </div>
+                    <div class="skill-item">
+                        <img src="img/logo/lr.png" alt="">
+                        <p>LightRoom</p>
+                    </div>
+                    <div class="skill-item">
+                        <img src="img/logo/ps.png" alt="">
+                        <p>Photoshop</p>
+                    </div>
+                    <div class="skill-item">
+                        <img src="img/logo/id.png" alt="">
+                        <p>InDesign</p>
+                    </div>
+                    <div class="skill-item">
+                        <img src="img/logo/ai.png" alt="">
+                        <p>Illustrator</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="contact">
+            <h1 data-key="testimonials-title">DE LEURS MOTS</h1>
+            <div class="container-testi">
+                <div class="testi-card">
+                    <strong>Madhvi HETTIARACHCHIGE</strong>
+                    <p data-key="testi-1"> blabla</p>
+                </div>
+
+                <div class="testi-card">
+                    <strong>Mevlana ACAR</strong>
+                    <p data-key="testi-2">bla </p>
+                </div>
+
+                <div class="testi-card">
+                    <strong>Yvane BARRE</strong>
+                    <p data-key="testi-3">b</p>
+                </div>
+            </div>
+
+            <h1 data-key="contact-title">CONTACT</h1>
+            <div class="container-mf">
+                <div class="mini-container-mf">
+                    <h3 data-key="contact-mail">Mail</h3>
+                    <a href="mailto:acarhayrunnisa">acarhayrunnusa42@gmail.com</a>
+                </div>
+                <div class="mini-container-mf">
+                    <h3 data-key="contact-follow">Suivez moi</h3>
+                    <a href="">LinkedIn</a>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <div id="popup-container" class="popup-container hidden">
+        <div class="popup">
+            <div id="close-btn" class="close-btn">
+                <img src="img/close-btn.png" alt="">
+            </div>
+
+            <div class="left">
+                <img id="popup-img" class="popup-img" src="" alt="">
+            </div>
+
+            <div class="right">
+                <h2 id="popup-title" class="popup-title"></h2>
+                <span id="popup-ctx" class="popup-ctx"></span>
+                <div id="popup-tools" class="tools-container"></div>
+                <p id="popup-skills" class="popup-skills"></p>
+                <p id="popup-desc" class="popup-desc"></p>
+                <div id="popup-link" class="popup-link"></div>
+            </div>
+        </div>
+    </div>
+
+    <footer>
+        <p>© 2025 Hayrunnisa ACAR</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
