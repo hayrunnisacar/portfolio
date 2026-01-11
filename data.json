@@ -17,8 +17,8 @@
         "context": { 
             "fr": "Universitaire", 
             "en": "Academic" },
-        "languages": [""],
-        "software": ["Figma", "InDesign"],
+        "languages": "",
+        "software": "Figma, InDesign",
         "link": "https://monsite.com",
         "image": "img/campagne.webp"
     },
@@ -40,8 +40,8 @@
         "context": { 
             "fr": "Universitaire", 
             "en": "Academic" },
-        "languages": [""],
-        "software": ["CapCut"],
+        "languages": "",
+        "software": "CapCut",
         "link": "https://www.youtube.com/watch?v=GrK-Xhnov8M",
         "image": "img/echecs.webp"
     },
@@ -63,8 +63,8 @@
         "context": { 
             "fr": "Universitaire", 
             "en": "Academic" },
-        "languages": ["HTML", "CSS", "JavaScript"],
-        "software": [""],
+        "languages": "HTML, CSS, JavaScript",
+        "software": "",
         "link": "https://hayrunnisacar.github.io/disnyz/",
         "image": "img/disnyz.webp"
     },
@@ -86,8 +86,8 @@
         "context": { 
             "fr": "Personnel", 
             "en": "Personal" },
-        "languages": [""],
-        "software": ["DaVinci Resolve", "Premiere Pro", "After Effects"],
+        "languages": "",
+        "software": "DaVinci Resolve, Premiere Pro, After Effects",
         "link": "https://www.youtube.com/watch?v=TAEajnBebkA&list=PL1G1injbok9J_z4-xwpv6cfmhmMZgiiQc",
         "image": "img/ecuries.webp"
     },
@@ -109,8 +109,8 @@
         "context": { 
             "fr": "Personnel", 
             "en": "Personal" },
-        "languages": [""],
-        "software": ["DaVinci Resolve", "Premiere Pro", "After Effects"],
+        "languages": "",
+        "software": "InDesign, Photoshop",
         "link": "https://www.youtube.com/watch?v=TAEajnBebkA&list=PL1G1injbok9J_z4-xwpv6cfmhmMZgiiQc",
         "image": "img/poetikartier.webp"
     },
@@ -132,8 +132,8 @@
         "context": { 
             "fr": "Personnel", 
             "en": "Personal" },
-        "languages": ["WordPress"],
-        "software": [""],
+        "languages": "WordPress",
+        "software": "",
         "link": "https://wpsem2.acar.projetsmmichamps.fr/",
         "image": "img/hayblog.webp"
     },
@@ -155,8 +155,8 @@
         "context": { 
             "fr": "Personnel", 
             "en": "Personal" },
-        "languages": ["HTML", "CSS", "JavaScript", "PHP", "SQL"],
-        "software": [""],
+        "languages": "HTML, CSS, JavaScript, PHP, SQL",
+        "software": "",
         "link": "https://webinventory.acar.projetsmmichamps.fr/",
         "image": "img/dramaturk.webp"
     },
@@ -178,8 +178,8 @@
         "context": { 
             "fr": "Personnel", 
             "en": "Personal" },
-        "languages": [""],
-        "software": ["InDesign"],
+        "languages": "",
+        "software": "InDesign",
         "link": "",
         "image": "img/stage.webp"
     },
@@ -201,8 +201,8 @@
         "context": { 
             "fr": "Personnel", 
             "en": "Personal" },
-        "languages": [""],
-        "software": ["After Effects"],
+        "languages": "",
+        "software": "After Effects",
         "link": "https://www.youtube.com/watch?v=UdRHrgP47KQ",
         "image": "img/voiture.webp"
     },
@@ -224,8 +224,8 @@
         "context": { 
             "fr": "Universitaire", 
             "en": "Academic" },
-        "languages": [""],
-        "software": ["Premiere Pro"],
+        "languages": "",
+        "software": "Premiere Pro",
         "link": "https://www.youtube.com/watch?v=7x4MJbs9S0U&feature=youtu.be",
         "image": "img/interview.webp"
     }

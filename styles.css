@@ -378,9 +378,29 @@ main{
 }
 
 .opquast{
+    /* Aidé par Gemini */
+    width: 100vw;
+    position: relative;
+    left: 50%;
+    right: 50%;
+    margin-left: -50vw;
+    margin-right: -50vw;
+    /* Aidé par Gemini */
+    
     margin-top: 120px;
     padding: 50px 100px;
     background-color: var(--accent-light-color);
+    line-height: 2.1rem;
+}
+
+.opquast h2{
+    text-align: center;
+    margin-top: 0;
+}
+
+.opquast p{
+    max-width: 970px;
+    margin: auto;
 }
 
 .container-testi{

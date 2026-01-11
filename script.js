@@ -83,7 +83,7 @@ const translations = {
         "about-desc": "Moi, c’est Hayrunnisa, étudiante en BUT Métiers du Multimédia et de l’Internet. J’aime créer du contenu pour m’exprimer, que ce soit à travers la vidéo, la photographie ou les arts visuels. En parallèle, j’apprends le développement web pour mêler créativité et technique dans mes projets. Je suis actuellement à la recherche d’un stage de 4 mois à partir d’avril 2026, en audiovisuel ou community management.",
         "btn-cv": "CV",
         "skills-title": "Mes compétences",
-        "opquast": "Je vais passer opquast",
+        "opquast": "Je suis formée aux règles Opquast, qui regroupent les bonnes pratiques de la qualité web, et je passerai ma certification en avril 2026. Ainsi, je monte en compétences en accessibilité, en performance, mais aussi en ergonomie. En 2026, les sites web doivent pouvoir être utilisés par tous, et je m’engage activement dans cette démarche.",
         
         "testimonials-title": "DE LEURS MOTS",
         "testi-1": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat quam maxime eius enim consequuntur deserunt dicta et cupiditate earum, libero aperiam perspiciatis, consectetur molestias. Animi repellendus optio culpa. Ex, quia.",
@@ -116,7 +116,7 @@ const translations = {
         "about-desc": "Hi, I’m Hayrunnisa, a student in Multimedia and Internet Professions. I enjoy creating content to express myself, especially through video, photography, and visual arts. At the same time, I’m learning web development to mix creativity and technical skills in my projects. I am currently looking for a 4-month internship starting in April 2026, in audiovisual or community management.",
         "btn-cv": "Resume",
         "skills-title": "My Skills",
-        "opquast": "Je vais passer opquast IN ENGLISH",
+        "opquast": "I am trained in Opquast rules, which are good practices for web quality, and I will take my certification in April 2026. I am improving my skills in accessibility, performance, and usability. In 2026, websites should be usable by everyone, and I am working toward this goal.",
 
         "testimonials-title": "TESTIMONIALS",
         "testi-1": "EN Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat quam maxime eius enim consequuntur deserunt dicta et cupiditate earum, libero aperiam perspiciatis, consectetur molestias. Animi repellendus optio culpa. Ex, quia.",
@@ -294,6 +294,7 @@ function openPopup(project) {
     document.getElementById('popup-skills').innerHTML = `${project.skills[currentLang]}`;
     document.getElementById('popup-img').src = project.image;
     document.getElementById('popup-desc').innerHTML = `${project.description[currentLang]}`;
+    document.getElementById('popup-tools').innerHTML = `${project.software} ${project.languages}`;
     //Le lien
     const linkDiv = document.getElementById('popup-link');
     if(project.link) {
