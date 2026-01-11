@@ -1,11 +1,48 @@
+//----------Burger menu----------
+// https://www.youtube.com/watch?v=MQWkahv_yxg&t=2122s
+const toggleMenu = document.getElementById("toggle-menu")
+const cancel = document.getElementById("cancel")
+const nav = document.querySelector('nav')
+const navLinks = document.querySelectorAll("nav ul li a")
+
+function toggleNav() {
+    nav.classList.toggle('active');
+}
+
+toggleMenu.addEventListener('click', ()=>{
+    nav.classList.toggle('active')
+    cancel.classList.toggle('active')
+})
+
+cancel.addEventListener('click', ()=>{
+    nav.classList.toggle('active')
+    cancel.classList.toggle('active')
+})
+
+
+navLinks.forEach(link => {
+    link.addEventListener('click', () => {
+        nav.classList.remove('active');
+    });
+})
+
+
 //----------Navbar scroll hidden----------
 // https://www.youtube.com/watch?v=0YE79RyNYJ4 et IA
-const nav = document.querySelector('nav');
 
 //La position de départ
 let lastScrollY = window.scrollY;
 
 window.addEventListener("scroll", () => {
+    if (window.innerWidth <= 900) {
+        nav.style.translate = ""; 
+        return;
+    }
+
+    if (nav.classList.contains('active')) {
+        return;
+    }
+
     //Position actuelle
     const currentScrollY = window.scrollY;
 
@@ -20,6 +57,12 @@ window.addEventListener("scroll", () => {
 
     //Je mets à jour la dernière position
     lastScrollY = currentScrollY;
+});
+
+window.addEventListener('resize', () => {
+    if (window.innerWidth <= 900) {
+        nav.style.translate = "0 0";
+    }
 });
 
 const translations = {
@@ -40,6 +83,7 @@ const translations = {
         "about-desc": "Moi, c’est Hayrunnisa, étudiante en BUT Métiers du Multimédia et de l’Internet. J’aime créer du contenu pour m’exprimer, que ce soit à travers la vidéo, la photographie ou les arts visuels. En parallèle, j’apprends le développement web pour mêler créativité et technique dans mes projets. Je suis actuellement à la recherche d’un stage de 4 mois à partir d’avril 2026, en audiovisuel ou community management.",
         "btn-cv": "CV",
         "skills-title": "Mes compétences",
+        "opquast": "Je vais passer opquast",
         
         "testimonials-title": "DE LEURS MOTS",
         "testi-1": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat quam maxime eius enim consequuntur deserunt dicta et cupiditate earum, libero aperiam perspiciatis, consectetur molestias. Animi repellendus optio culpa. Ex, quia.",
@@ -72,6 +116,7 @@ const translations = {
         "about-desc": "Hi, I’m Hayrunnisa, a student in Multimedia and Internet Professions. I enjoy creating content to express myself, especially through video, photography, and visual arts. At the same time, I’m learning web development to mix creativity and technical skills in my projects. I am currently looking for a 4-month internship starting in April 2026, in audiovisual or community management.",
         "btn-cv": "Resume",
         "skills-title": "My Skills",
+        "opquast": "Je vais passer opquast IN ENGLISH",
 
         "testimonials-title": "TESTIMONIALS",
         "testi-1": "EN Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat quam maxime eius enim consequuntur deserunt dicta et cupiditate earum, libero aperiam perspiciatis, consectetur molestias. Animi repellendus optio culpa. Ex, quia.",
@@ -244,6 +289,7 @@ function openPopup(project) {
     
     //Je complète ma popup
     document.getElementById('popup-title').textContent = project.title[currentLang];
+    document.getElementById('popup-date').innerHTML = `${project.date[currentLang]}`;
     document.getElementById('popup-ctx').innerHTML = `${project.context[currentLang]}`;
     document.getElementById('popup-skills').innerHTML = `${project.skills[currentLang]}`;
     document.getElementById('popup-img').src = project.image;

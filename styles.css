@@ -25,9 +25,6 @@ font-style: italic; */
 /* 400, 600, 700, 900 */
 
 :root {
-    /* --bg-color: #FAF9F6; */
-    /* --text-color: #3A2E34; */
-    /* --accent-color: #5D3A94; */
     --bg-color: #fefefe;
     --text-color: #15031c;
     --accent-color: #a37de0;
@@ -99,6 +96,24 @@ nav li{
 nav a{
     text-decoration: none;
     color: var(--text-color);
+}
+
+.toggle-menu{
+    display: none;
+    flex-direction: column;
+    cursor: pointer;
+}
+
+.bar{
+    width: 30px;
+    height: 4px;
+    background-color: var(--text-color);
+    margin: 3px 0;
+    border-radius: 10px;
+}
+
+.cancel{
+    display: none;
 }
 
 main{
@@ -270,32 +285,6 @@ main{
     font-size: 1rem;
 }
 
-/* Le conteneur des tags */
-.tools-container {
-    display: flex;
-    flex-wrap: wrap; /* Permet de passer à la ligne s'il y en a trop */
-    gap: 10px; /* Espace entre les tags */
-    margin: 10px 0;
-}
-
-/* Le style de l'étiquette individuelle */
-.tool-tag {
-    background-color: #f0f0f0; /* Fond gris clair */
-    color: #333;
-    padding: 5px 12px;
-    border-radius: 20px; /* Arrondi */
-    font-size: 0.85rem;
-    font-weight: 500;
-    border: 1px solid #ddd;
-    text-transform: uppercase;
-}
-
-/* Optionnel : Une couleur différente au survol */
-.tool-tag:hover {
-    background-color: #e0e0e0;
-    border-color: #bbb;
-}
-
 .popup-link{
     text-align: right;
     margin-bottom: 40px;
@@ -332,7 +321,6 @@ main{
 
 .about-text a {
     text-decoration: none;
-    /* background-color: var(--accent-light-color); */
     text-align: center;
     border-radius: 5px;
     border: solid 1px var(--border-color);
@@ -342,7 +330,6 @@ main{
 }
 
 .about-text a:hover{
-    /* background: var(--accent-light-color); */
     background-color: var(--border-color);
     box-shadow: 0 0 11px rgba(33,33,33,.2);
     scale: 1.02;
@@ -374,7 +361,7 @@ main{
 
 .skill-item img {
     width: 60px;
-    margin-bottom: 10px; /* Espace entre image et texte */
+    margin-bottom: 10px;
 }
 
 .skill-item p {
@@ -388,6 +375,12 @@ main{
     background-color: #ddd;
     max-width: 450px;
     margin: 0 auto;
+}
+
+.opquast{
+    margin-top: 120px;
+    padding: 50px 100px;
+    background-color: var(--accent-light-color);
 }
 
 .container-testi{
@@ -460,12 +453,57 @@ footer p{
     margin-right: 50px;
 }
 
-/* font-family: "proxima-nova", sans-serif;
-font-weight: 300;
-font-style: italic; */
-/* 400, 600, 700, 900 */
-
 @media (max-width: 900px) {
+    nav{
+        display: flex;
+        flex-direction: column;
+        width: 250px;
+        position: fixed;
+        top: 0;
+        right: -250px;
+        height: 100vh;
+        padding-top: 100px;
+        transition: right 0.3s ease;
+        box-shadow: 0 0 11px rgba(33,33,33,.2);
+        background-color: var(--bg-color);
+    }
+
+    nav.active {
+        right: 0;
+    }
+
+    nav ul {
+        flex-direction: column;
+        align-items: center;
+        gap: 30px;
+    }
+
+    nav ul li:first-child {
+        margin-right: 0; 
+    }
+
+    .toggle-menu{
+        display: flex;
+        position: fixed;
+        top: 15px;
+        right: 15px;
+        padding: 10px 15px;
+    }
+
+    .cancel{
+        display: block;
+        position: absolute;
+        top: 20px;
+        left: 20px;
+        font-size: 1.5rem;
+        font-weight: bold;
+        cursor: pointer;
+    }
+
+    .language-selector{
+        margin: 0 auto 30px auto;
+    }
+
     .popup {
         grid-template-columns: 1fr;
         grid-template-rows: 250px 1fr;

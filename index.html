@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Portfolio - Hayrunnisa ACAR</title>
-    <link rel="icon" type="image/x-icon" href="img/favicon.jpg">
+    <link rel="icon" type="image/x-icon" href="img/favicon.png">
     <link rel="stylesheet" href="styles.css">
     <link rel="stylesheet" href="https://use.typekit.net/hrf4dol.css">
 </head>
@@ -17,7 +17,15 @@
             <button id="btn-en">EN</button>
         </div>
 
-        <ul>
+        <div class="toggle-menu" id="toggle-menu">
+            <div class="bar"></div>
+            <div class="bar"></div>
+            <div class="bar"></div>
+        </div>
+
+        <div class="cancel" id="cancel">X</div>
+
+        <ul class="nav-list" id="nav-list">
             <li>
                 <a href="#intro">Hayrunnisa ACAR</a>
             </li>
@@ -147,24 +155,28 @@
                     </div>
                 </div>
             </div>
+
+            <div class="opquast">
+                <p data-key="opquast">Je vais passer opquast</p>
+            </div>
         </section>
 
         <section id="contact">
             <h1 data-key="testimonials-title">DE LEURS MOTS</h1>
             <div class="container-testi">
                 <div class="testi-card">
-                    <strong>Madhvi HETTIARACHCHIGE</strong>
-                    <p data-key="testi-1"> blabla</p>
+                    <strong>Etudiant</strong>
+                    <p data-key="testi-1">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat quam maxime eius enim consequuntur deserunt dicta et cupiditate earum, libero aperiam perspiciatis, consectetur molestias. Animi repellendus optio culpa. Ex, quia.</p>
                 </div>
 
                 <div class="testi-card">
                     <strong>Mevlana ACAR</strong>
-                    <p data-key="testi-2">bla </p>
+                    <p data-key="testi-2">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat quam maxime eius enim consequuntur deserunt dicta et cupiditate earum, libero aperiam perspiciatis, consectetur molestias. Animi repellendus optio culpa. Ex, quia.</p>
                 </div>
 
                 <div class="testi-card">
                     <strong>Yvane BARRE</strong>
-                    <p data-key="testi-3">b</p>
+                    <p data-key="testi-3">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat quam maxime eius enim consequuntur deserunt dicta et cupiditate earum, libero aperiam perspiciatis, consectetur molestias. Animi repellendus optio culpa. Ex, quia.</p>
                 </div>
             </div>
 
@@ -194,8 +206,10 @@
 
             <div class="right">
                 <h2 id="popup-title" class="popup-title"></h2>
-                <span id="popup-ctx" class="popup-ctx"></span>
-                <div id="popup-tools" class="tools-container"></div>
+                <div class="popup-meta-container">
+                    <span id="popup-ctx" class="popup-ctx"></span>
+                    <span id="popup-date" class="popup-date"></span>
+                </div>
                 <p id="popup-skills" class="popup-skills"></p>
                 <p id="popup-desc" class="popup-desc"></p>
                 <div id="popup-link" class="popup-link"></div>
