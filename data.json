@@ -1,6 +1,52 @@
 [
     {
         "id": 1,
+        "category": "dev",
+        "title": { 
+            "fr": "PICEAT", 
+            "en": "PICEAT" },
+        "date": { 
+            "fr": "Janvier 2026", 
+            "en": "January 2026" },
+        "description": { 
+            "fr": "ehhh", 
+            "en": "ehh" },
+        "skills": { 
+            "fr": "conduire la communication d’un evenement", 
+            "en": "Manage event communications" },
+        "context": { 
+            "fr": "Universitaire", 
+            "en": "Academic" },
+        "languages": "HTML, CSS, JavaScript, PHP, SQL",
+        "software": "Figma",
+        "link": "https://piceat.fr/",
+        "image": "img/piceat.webp"
+    },
+    {
+        "id": 2,
+        "category": "audiovisuel",
+        "title": { 
+            "fr": "Abandonnée", 
+            "en": "Abandonnée" },
+        "date": { 
+            "fr": "Janvier 2026", 
+            "en": "January 2026" },
+        "description": { 
+            "fr": "ehhh", 
+            "en": "ehh" },
+        "skills": { 
+            "fr": "conduire la communication d’un evenement", 
+            "en": "Manage event communications" },
+        "context": { 
+            "fr": "Universitaire", 
+            "en": "Academic" },
+        "languages": "",
+        "software": "After Effects, Premiere Pro, Reaper",
+        "link": "https://youtu.be/hXr6AcvoUfY",
+        "image": "img/courtmetrage.webp"
+    },
+    {
+        "id": 3,
         "category": "graphisme",
         "title": { 
             "fr": "Campagne institutionnelle", 
@@ -23,7 +69,7 @@
         "image": "img/campagne.webp"
     },
     {
-        "id": 2,
+        "id": 4,
         "category": "audiovisuel",
         "title": { 
             "fr": "Zugzwang", 
@@ -46,7 +92,7 @@
         "image": "img/echecs.webp"
     },
     {
-        "id": 3,
+        "id": 5,
         "category": "dev",
         "title": { 
             "fr": "Disnyz", 
@@ -69,7 +115,7 @@
         "image": "img/disnyz.webp"
     },
     {
-        "id": 4,
+        "id": 6,
         "category": "dev",
         "title": { 
             "fr": "Vidéos de communication association", 
@@ -92,7 +138,7 @@
         "image": "img/ecuries.webp"
     },
      {
-        "id": 5,
+        "id": 7,
         "category": "graphisme",
         "title": { 
             "fr": "Affiche | Association", 
@@ -115,7 +161,7 @@
         "image": "img/poetikartier.webp"
     },
     {
-        "id": 6,
+        "id": 8,
         "category": "dev",
         "title": { 
             "fr": "Blog de recettes", 
@@ -138,7 +184,7 @@
         "image": "img/hayblog.webp"
     },
     {
-        "id": 7,
+        "id": 9,
         "category": "dev",
         "title": { 
             "fr": "DramaTürk", 
@@ -161,7 +207,7 @@
         "image": "img/dramaturk.webp"
     },
     {
-        "id": 8,
+        "id": 10,
         "category": "graphisme",
         "title": { 
             "fr": "Flyer", 
@@ -184,7 +230,7 @@
         "image": "img/stage.webp"
     },
     {
-        "id": 9,
+        "id": 11,
         "category": "audiovisuel",
         "title": { 
             "fr": "Voiture", 
@@ -207,7 +253,7 @@
         "image": "img/voiture.webp"
     },
     {
-        "id": 10,
+        "id": 12,
         "category": "audiovisuel",
         "title": { 
             "fr": "Interview", 
