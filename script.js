@@ -1,3 +1,10 @@
+//----------Animation fleurs----------
+// https://www.youtube.com/watch?v=hOhWCoz8wqY
+const imgs = document.querySelectorAll('.intro img');
+const tl = gsap.timeline();
+
+tl.to(imgs, {scale: 1, duration: 0.8, stagger:0.1, ease: "back.out(1.7)"});
+
 //----------Burger menu----------
 // https://www.youtube.com/watch?v=MQWkahv_yxg&t=2122s
 const toggleMenu = document.getElementById("toggle-menu")
@@ -67,6 +74,7 @@ window.addEventListener('resize', () => {
 
 const translations = {
     fr: {
+        "nav-home": "ACCUEIL",
         "nav-projects": "PROJETS",
         "nav-about": "À PROPOS",
         "nav-contact": "CONTACT",
@@ -86,8 +94,8 @@ const translations = {
         "opquast": "Je suis formée aux règles Opquast, qui regroupent les bonnes pratiques de la qualité web, et je passerai ma certification en avril 2026. Ainsi, je monte en compétences en accessibilité, en performance, mais aussi en ergonomie. En 2026, les sites web doivent pouvoir être utilisés par tous, et je m’engage activement dans cette démarche.",
         
         "testimonials-title": "DE LEURS MOTS",
-        "testi-1": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat quam maxime eius enim consequuntur deserunt dicta et cupiditate earum, libero aperiam perspiciatis, consectetur molestias. Animi repellendus optio culpa. Ex, quia.",
-        "testi-2": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat quam maxime eius enim consequuntur deserunt dicta et cupiditate earum, libero aperiam perspiciatis, consectetur molestias. Animi repellendus optio culpa. Ex, quia.",
+        "testi-1": "Ayant collaboré avec Hayrunnisa sur de nombreux projets tout au long de la formation MMI, j'ai pu constater son efficacité et sa fiabilité exemplaire. Elle possède une grande capacité d'adaptation ainsi qu'un leadership naturel qui lui permet de motiver et d'encourager son équipe en toutes circonstances ! Hayrunnisa est quelqu’un de très confiante et sait mener ses objectifs à bien. Travailler à ses côtés est très agréable !",
+        "testi-2": "Hayrunnisa était une stagiaire très réactive, pleine d’idées et surtout force de proposition. Elle s’est montrée très impliquée, curieuse et enthousiaste tout au long de son stage.",
         "testi-3": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat quam maxime eius enim consequuntur deserunt dicta et cupiditate earum, libero aperiam perspiciatis, consectetur molestias. Animi repellendus optio culpa. Ex, quia.",
         "contact-title": "CONTACT",
         "contact-mail": "Mail",
@@ -100,6 +108,7 @@ const translations = {
         "link": "Voir le projet",
     },
     en: {
+        "nav-home": "HOME",
         "nav-projects": "PROJECTS",
         "nav-about": "ABOUT ME",
         "nav-contact": "CONTACT",
@@ -119,8 +128,8 @@ const translations = {
         "opquast": "I am trained in Opquast rules, which are good practices for web quality, and I will take my certification in April 2026. I am improving my skills in accessibility, performance, and usability. In 2026, websites should be usable by everyone, and I am working toward this goal.",
 
         "testimonials-title": "TESTIMONIALS",
-        "testi-1": "EN Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat quam maxime eius enim consequuntur deserunt dicta et cupiditate earum, libero aperiam perspiciatis, consectetur molestias. Animi repellendus optio culpa. Ex, quia.",
-        "testi-2": "EN Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat quam maxime eius enim consequuntur deserunt dicta et cupiditate earum, libero aperiam perspiciatis, consectetur molestias. Animi repellendus optio culpa. Ex, quia",
+        "testi-1": "Having collaborated with Hayrunnisa on numerous projects throughout the MMI training programme, I have witnessed her exemplary efficiency and reliability. She is highly adaptable and possesses natural leadership skills that enable her to motivate and encourage her team in all circumstances. Hayrunnisa is a very confident person who knows how to achieve her goals. Working alongside her is a real pleasure. ",
+        "testi-2": "Hayrunnisa was a very responsive intern with many ideas. She often made suggestions and proposed solutions. She was involved in her work, curious, and enthusiastic throughout her internship.",
         "testi-3": "EN Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat quam maxime eius enim consequuntur deserunt dicta et cupiditate earum, libero aperiam perspiciatis, consectetur molestias. Animi repellendus optio culpa. Ex, quia",
         "contact-title": "CONTACT",
         "contact-mail": "Email",

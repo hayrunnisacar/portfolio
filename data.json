@@ -3,8 +3,8 @@
         "id": 1,
         "category": "dev",
         "title": { 
-            "fr": "PICEAT", 
-            "en": "PICEAT" },
+            "fr": "PicEat", 
+            "en": "PicEat" },
         "date": { 
             "fr": "Janvier 2026", 
             "en": "January 2026" },
@@ -12,8 +12,8 @@
             "fr": "ehhh", 
             "en": "ehh" },
         "skills": { 
-            "fr": "conduire la communication d’un evenement", 
-            "en": "Manage event communications" },
+            "fr": "Concevoir et développer une expérience utilisateur", 
+            "en": "Design and develop a user experience" },
         "context": { 
             "fr": "Universitaire", 
             "en": "Academic" },
@@ -27,7 +27,7 @@
         "category": "audiovisuel",
         "title": { 
             "fr": "Abandonnée", 
-            "en": "Abandonnée" },
+            "en": "Abandoned" },
         "date": { 
             "fr": "Janvier 2026", 
             "en": "January 2026" },
@@ -35,8 +35,8 @@
             "fr": "ehhh", 
             "en": "ehh" },
         "skills": { 
-            "fr": "conduire la communication d’un evenement", 
-            "en": "Manage event communications" },
+            "fr": "Produire des contenus pour une communication plurimédia", 
+            "en": "Producing content for multimedia communication" },
         "context": { 
             "fr": "Universitaire", 
             "en": "Academic" },
@@ -50,7 +50,7 @@
         "category": "graphisme",
         "title": { 
             "fr": "Campagne institutionnelle", 
-            "en": "institutional campaign" },
+            "en": "Institutional campaign" },
         "date": { 
             "fr": "Novembre 2025", 
             "en": "November 2025" },
@@ -58,7 +58,7 @@
             "fr": "ehhh", 
             "en": "ehh" },
         "skills": { 
-            "fr": "conduire la communication d’un evenement", 
+            "fr": "Conduire la communication d’un evenement", 
             "en": "Manage event communications" },
         "context": { 
             "fr": "Universitaire", 
