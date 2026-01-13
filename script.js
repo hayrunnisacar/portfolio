@@ -308,7 +308,29 @@ function openPopup(project) {
     document.getElementById('popup-ctx').innerHTML = `${project.context[currentLang]}`;
     document.getElementById('popup-img').src = project.image;
     document.getElementById('popup-desc').innerHTML = `${project.description[currentLang]}`;
-    document.getElementById('popup-tools').innerHTML = `${project.software} ${project.languages}`;
+    
+    const toolsContainer = document.getElementById('popup-tools');
+    //Je recuèpre les textes et mets une chaine de caractère ide si vide
+    let textSoftwares = project.software || "";
+    let textlLanguages = project.languages || "";
+
+    let textTools = textSoftwares + "," + textlLanguages;
+
+    let htmlTools = "";
+
+    //Je coupe la liste à chaque vrifule
+    let toolsWords = textTools.split(',');
+
+    toolsWords.forEach(word => {
+        let cleanWord = word.trim();
+
+        if(cleanWord !== "") {
+            htmlTools += `<span class="tool-tag">${cleanWord}</span>`;
+        }
+    });
+    //Dans la popup
+    toolsContainer.innerHTML = htmlTools;
+
     //Le lien
     const linkDiv = document.getElementById('popup-link');
     if(project.link) {
