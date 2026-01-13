@@ -308,6 +308,7 @@ function openPopup(project) {
     document.getElementById('popup-ctx').innerHTML = `${project.context[currentLang]}`;
     document.getElementById('popup-img').src = project.image;
     document.getElementById('popup-team').innerHTML = `${project.team[currentLang]}`;
+    document.getElementById('popup-skills').innerHTML = `${project.skills[currentLang]}`;
     document.getElementById('popup-desc').innerHTML = `${project.description[currentLang]}`;
 
     const toolsContainer = document.getElementById('popup-tools');

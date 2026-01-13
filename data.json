@@ -17,8 +17,8 @@
         "languages": "HTML, CSS, JavaScript, PHP, SQL",
         "software": "Figma",
         "skills": { 
-            "fr": "Gestion de projet, UX Design, UI Design, Back-end, Base de données", 
-            "en": "Project management, UX design, UI design, back-end development, databases" },
+            "fr": "Gestion de projet | UX Design | UI Design | Back-end | Base de données", 
+            "en": "Project management | UX design | UI design | Back-end development | Databases" },
         "team": { 
             "fr": "Groupe de 5", 
             "en": "Group of 5" },
@@ -43,8 +43,8 @@
         "languages": "",
         "software": "After Effects, Premiere Pro, Reaper",
         "skills": { 
-            "fr": "Scénario, Tournage, Montage, Incrustation, Sound Design", 
-            "en": "Screenwriting, Filming, Editing, Chroma Keying, Sound Design" },
+            "fr": "Scénario | Tournage | Montage | Incrustation | Sound Design", 
+            "en": "Screenwriting | Filming | Editing | Chroma Keying | Sound Design" },
         "team": { 
             "fr": "Groupe de 4", 
             "en": "Group of 4" },
@@ -69,8 +69,8 @@
         "languages": "",
         "software": "Figma, InDesign",
         "skills": { 
-            "fr": "Direction artistique, Web Design, Communication", 
-            "en": "Art direction, Web design, Communication" },
+            "fr": "Direction artistique | Web Design | Communication", 
+            "en": "Art direction | Web design | Communication" },
         "team": { 
             "fr": "Duo", 
             "en": "Pair" },
@@ -94,8 +94,8 @@
             "en": "Academic" },
         "languages": "",
         "skills": { 
-            "fr": "Storyboard, Tournage, Montage", 
-            "en": "Storyboarding, Filming, Editing" },
+            "fr": "Storyboard | Tournage | Montage", 
+            "en": "Storyboarding | Filming | Editing" },
         "team": { 
             "fr": "Duo", 
             "en": "Pair" },
@@ -121,8 +121,8 @@
         "languages": "HTML, CSS, JavaScript, GSAP",
         "software": "",
         "skills": { 
-            "fr": "Front-end, Animation web (GSAP), Visualisation de données", 
-            "en": "Front-end, Web Animation (GSAP), Data Visualization" },
+            "fr": "Front-end | Animation web (GSAP) | Visualisation de données", 
+            "en": "Front-end | Web Animation (GSAP) | Data Visualization" },
         "team": { 
             "fr": "Groupe de 3", 
             "en": "Group of 3" },
@@ -147,8 +147,8 @@
         "languages": "",
         "software": "DaVinci Resolve, Premiere Pro, After Effects",
         "skills": { 
-            "fr": "Montage, Étalonnage, Motion Design", 
-            "en": "Video Editing, Color Grading, Motion Design" },
+            "fr": "Montage | Étalonnage | Motion Design", 
+            "en": "Video Editing | Color Grading | Motion Design" },
         "team": { 
             "fr": "Seule", 
             "en": "Solo" },
@@ -173,8 +173,8 @@
         "languages": "",
         "software": "InDesign, Photoshop",
         "skills": { 
-            "fr": "Graphisme, Communication", 
-            "en": "Graphics, Communication" },
+            "fr": "Graphisme | Communication", 
+            "en": "Graphics | Communication" },
         "team": { 
             "fr": "Seule", 
             "en": "Solo" },
@@ -199,8 +199,8 @@
         "languages": "WordPress",
         "software": "",
         "skills": { 
-            "fr": "CMS, Gestion de contenu", 
-            "en": "CMS, Content Management" },
+            "fr": "CMS | Gestion de contenu", 
+            "en": "CMS | Content Management" },
         "team": { 
             "fr": "Seule", 
             "en": "Solo" },
@@ -225,8 +225,8 @@
         "languages": "HTML, CSS, JavaScript, PHP, SQL",
         "software": "",
         "skills": { 
-            "fr": "Front-end, Back-end, Base de données, Responsive Design", 
-            "en": "Front-end, Back-end, Database, Responsive Design" },
+            "fr": "Front-end | Back-end | Base de données | Responsive Design", 
+            "en": "Front-end | Back-end | Database | Responsive Design" },
         "team": { 
             "fr": "Seule", 
             "en": "Solo" },
@@ -251,8 +251,8 @@
         "languages": "",
         "software": "InDesign",
         "skills": { 
-            "fr": "Graphisme, Relation client", 
-            "en": "Graphics, Client Relations" },
+            "fr": "Graphisme | Relation client", 
+            "en": "Graphics | Client Relations" },
         "team": { 
             "fr": "Seule", 
             "en": "Solo" },
@@ -277,8 +277,8 @@
         "languages": "",
         "software": "After Effects",
         "skills": { 
-            "fr": "Motion Design, Animation 2D", 
-            "en": "Motion Design, 2D Animation" },
+            "fr": "Motion Design | Animation 2D", 
+            "en": "Motion Design | 2D Animation" },
         "team": { 
             "fr": "Seule", 
             "en": "Solo" },
@@ -303,8 +303,8 @@
         "languages": "",
         "software": "Premiere Pro",
         "skills": { 
-            "fr": "Interview, cadrage, Prise de son, Montage", 
-            "en": "Interview, Filming, Sound Recording, Editing" },
+            "fr": "Interview | Cadrage | Prise de son | Montage", 
+            "en": "Interview | Filming | Sound Recording | Editing" },
         "team": { 
             "fr": "Groupe de 5", 
             "en": "Group of 5" },

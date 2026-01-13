@@ -306,6 +306,10 @@ main{
     font-weight: 400;
 }
 
+.popup-skills{
+    color: #643aa3;
+}
+
 .tags{
     background-color: var(--accent-light-color);
     padding: 6px 20px;
