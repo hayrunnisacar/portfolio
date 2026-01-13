@@ -301,6 +301,11 @@ main{
     gap: 20px;
 }
 
+.popup-date{
+    font-style: italic;
+    font-weight: 400;
+}
+
 .tags{
     background-color: var(--accent-light-color);
     padding: 6px 20px;

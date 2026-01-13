@@ -307,8 +307,9 @@ function openPopup(project) {
     document.getElementById('popup-date').innerHTML = `${project.date[currentLang]}`;
     document.getElementById('popup-ctx').innerHTML = `${project.context[currentLang]}`;
     document.getElementById('popup-img').src = project.image;
+    document.getElementById('popup-team').innerHTML = `${project.team[currentLang]}`;
     document.getElementById('popup-desc').innerHTML = `${project.description[currentLang]}`;
-    
+
     const toolsContainer = document.getElementById('popup-tools');
     //Je recuèpre les textes et mets une chaine de caractère ide si vide
     let textSoftwares = project.software || "";

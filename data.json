@@ -9,13 +9,19 @@
             "fr": "Janvier 2026", 
             "en": "January 2026" },
         "description": { 
-            "fr": "ehhh", 
-            "en": "ehh" },
+            "fr": "PicEat est un projet que j'ai réalisé avec quatre coéquipiers. C'est un site qui permet de partager ce que l'on mange avec ses amis. C'est le projet le plus complet que j'ai réalisé jusqu'à aujourd'hui. Pour la gestion de projet, nous avons mis en place un backlog. Nous avons commencé par une phase d'UX (interviews, benchmark) puis d'UI avec la création de wireframes que j'ai réalisé avec mon camarade et de maquettes. Je me suis également occupée du développement back-end. J'ai collaboré à la création de la base de données, puis j'ai codé en PHP les fonctions liées aux posts et aux amis. J'ai aussi intégré une carte interactive en JS. Je me suis vraiment challengée sur ce site car le niveau était plus élevé, mais je n'ai rien lâché.", 
+            "en": "PicEat is a project I made with four teammates. It is a website to share what you eat with your friends. It is the most complete website I have made so far. We managed the project using a backlog. We started with a UX phase (interviews, benchmark) and then UI. I worked on the wireframes on Figma and the back-end. I helped create the database, then I coded the features for posts and friends in PHP. I also added a map in JS. It was a real challenge because the level was higher, but I did not give up." },
         "context": { 
             "fr": "Universitaire", 
             "en": "Academic" },
         "languages": "HTML, CSS, JavaScript, PHP, SQL",
         "software": "Figma",
+        "skills": { 
+            "fr": "Gestion de projet, UX Design, UI Design, Back-end, Base de données", 
+            "en": "Project management, UX design, UI design, back-end development, databases" },
+        "team": { 
+            "fr": "Groupe de 5", 
+            "en": "Group of 5" },
         "link": "https://piceat.fr/",
         "image": "img/mockup/piceat.webp"
     },
@@ -29,13 +35,19 @@
             "fr": "Janvier 2026", 
             "en": "January 2026" },
         "description": { 
-            "fr": "ehhh", 
-            "en": "ehh" },
+            "fr": "Abandonnée est un court-métrage que nous avons réalisé à quatre. Je me suis occupée seule du montage. C'est le projet dont je suis la plus fière car j'ai utilisé un fond vert pour la première fois. Nous avons écrit le scénario et tourné ensemble. Pour l'incrustation sur fond vert, j'ai utilisé After Effects en m'aidant de tutoriels. J'ai aussi créé la bande son sur Reaper. Enfin, j'ai tout monté et étalonné sur Premiere Pro. L'histoire est très émouvante : une mère abandonne son bébé pour des raisons à découvrir dans le film.", 
+            "en": "Abandonnée is a short film we made in a group of four. I did the editing by myself. It is the project I am most proud of because I used a green screen for the first time. We wrote the script and filmed together. For the green screen, I used After Effects and tutorials. I also did the sound design on Reaper. Finally, I edited and did the color grading on Premiere Pro. The story is very emotional: a mother abandons her baby for reasons you will discover in the film." },
         "context": { 
             "fr": "Universitaire", 
             "en": "Academic" },
         "languages": "",
         "software": "After Effects, Premiere Pro, Reaper",
+        "skills": { 
+            "fr": "Scénario, Tournage, Montage, Incrustation, Sound Design", 
+            "en": "Screenwriting, Filming, Editing, Chroma Keying, Sound Design" },
+        "team": { 
+            "fr": "Groupe de 4", 
+            "en": "Group of 4" },
         "link": "https://youtu.be/hXr6AcvoUfY",
         "image": "img/mockup/courtmetrage.webp"
     },
@@ -49,13 +61,19 @@
             "fr": "Novembre 2025", 
             "en": "November 2025" },
         "description": { 
-            "fr": "ehhh", 
-            "en": "ehh" },
+            "fr": "En duo, nous avons réalisé les supports de communication pour la Fête du Fruit et de la Nature de Chenicourt. Avant tout, nous nous sommes documentées sur l'événement et avons créé un moodboard. Nous avons ensuite fait les maquettes du site de la ville en responsive, sous 3 formats. Je me suis également occupée des bannières web ainsi que du dossier de présentation final.", 
+            "en": "In a pair, we created communication materials for the Fruit and Nature Festival in Chenicourt. First, we did research on the event and made a moodboard. We designed responsive mockups for the city's website in 3 formats. I also took care of the web banners and the final presentation folder." },
         "context": { 
             "fr": "Universitaire", 
             "en": "Academic" },
         "languages": "",
         "software": "Figma, InDesign",
+        "skills": { 
+            "fr": "Direction artistique, Web Design, Communication", 
+            "en": "Art direction, Web design, Communication" },
+        "team": { 
+            "fr": "Duo", 
+            "en": "Pair" },
         "link": "pdf/campagne_fete.pdf",
         "image": "img/mockup/campagne.webp"
     },
@@ -69,12 +87,18 @@
             "fr": "Novembre 2025", 
             "en": "November 2025" },
         "description": { 
-            "fr": "ehhh", 
-            "en": "ehh" },
+            "fr": "Zugzwang est mon premier mini court-métrage. Il met en scène une partie d'échecs. Nous l'avons tourné à deux et je me suis occupée du montage. C'était un projet enrichissant, notamment grâce à l'utilisation d'un stabilisateur. J'ai réalisé que quand on veut, on peut : même avec un téléphone, tout est possible. J'ai d'abord créé un storyboard après avoir discuté avec ma coéquipière. Enfin, j'ai utilisé CapCut pour le montage par souci de rapidité face au manque de temps.", 
+            "en": "Zugzwang is my first mini short film. It shows a chess game. We filmed it in a team of two, and I was in charge of the editing. It was an enriching project because we used a stabilizer. I realized that if you want to, you can: even with a phone, anything is possible. First, I created a storyboard after discussing it with my teammate. I used CapCut for the editing to be fast because we didn't have much time." },
         "context": { 
             "fr": "Universitaire", 
             "en": "Academic" },
         "languages": "",
+        "skills": { 
+            "fr": "Storyboard, Tournage, Montage", 
+            "en": "Storyboarding, Filming, Editing" },
+        "team": { 
+            "fr": "Duo", 
+            "en": "Pair" },
         "software": "CapCut",
         "link": "https://www.youtube.com/watch?v=GrK-Xhnov8M",
         "image": "img/mockup/echecs.webp"
@@ -89,13 +113,19 @@
             "fr": "Novembre 2025", 
             "en": "November 2025" },
         "description": { 
-            "fr": "ehhh", 
-            "en": "ehh" },
+            "fr": "Disnyz est un projet que j'ai réalisé avec deux autres personnes. Ce site présente des données sur les films Disney, notamment leurs recettes et leur chronologie. Nous l'avons voulu très interactif pour captiver l'attention et éviter les tableaux trop neutres. J'ai utilisé la bibliothèque GSAP. C'était un vrai défi technique car je ne la connaissais pas du tout, mais je pense l'avoir relevé avec succès. Le point à améliorer serait le responsive, qui a été un peu négligé à cause des nombreuses animations.", 
+            "en": "Disnyz is a project I made with two other people. It is a website about Disney movies, showing data like revenue and timelines. We made it very interactive to keep the user's attention, instead of using simple tables. I used the GSAP library. It was a real challenge because I did not know this tool, but I think I succeeded. The point to improve would be the responsiveness, which was difficult due to the many animations." },
         "context": { 
             "fr": "Universitaire", 
             "en": "Academic" },
-        "languages": "HTML, CSS, JavaScript",
+        "languages": "HTML, CSS, JavaScript, GSAP",
         "software": "",
+        "skills": { 
+            "fr": "Front-end, Animation web (GSAP), Visualisation de données", 
+            "en": "Front-end, Web Animation (GSAP), Data Visualization" },
+        "team": { 
+            "fr": "Groupe de 3", 
+            "en": "Group of 3" },
         "link": "https://hayrunnisacar.github.io/disnyz/",
         "image": "img/mockup/disnyz.webp"
     },
@@ -103,19 +133,25 @@
         "id": 6,
         "category": "audiovisuel",
         "title": { 
-            "fr": "Vidéos de communication association", 
-            "en": "Association communication videos" },
+            "fr": "Vidéos de communication Réussir Aujourd'hui", 
+            "en": "Communication videos Réussir Aujourd'hui" },
         "date": { 
             "fr": "Juillet 2025", 
-            "en": "Jully 2025" },
+            "en": "July 2025" },
         "description": { 
-            "fr": "ehhh", 
-            "en": "ehh" },
+            "fr": "Réussir Aujourd'hui est une association que je côtoyais au lycée. Elle aide les lycéens issus de quartiers prioritaires à accéder aux grandes écoles. J'ai été contactée pour réaliser des vidéos de communication, une mission que j'ai menée avec beaucoup d'enthousiasme. Cela m'a permis de voir leur impact de plus près. J'ai fait le montage sur Premiere Pro et l'étalonnage sur DaVinci Resolve, c'était l'occasion idéale pour apprendre ce logiciel. Enfin, j'ai utilisé After Effects pour les animations.", 
+            "en": "Réussir Aujourd'hui is an association I knew in high school. Its goal is to help students from priority areas access prestigious schools. I was contacted to make videos for them, and I did it with great enthusiasm. I edited on Premiere Pro and did the color grading on DaVinci Resolve, which was the perfect chance to learn this software. I also used After Effects for the animations." },
         "context": { 
             "fr": "Personnel", 
             "en": "Personal" },
         "languages": "",
         "software": "DaVinci Resolve, Premiere Pro, After Effects",
+        "skills": { 
+            "fr": "Montage, Étalonnage, Motion Design", 
+            "en": "Video Editing, Color Grading, Motion Design" },
+        "team": { 
+            "fr": "Seule", 
+            "en": "Solo" },
         "link": "https://www.youtube.com/watch?v=TAEajnBebkA&list=PL1G1injbok9J_z4-xwpv6cfmhmMZgiiQc",
         "image": "img/mockup/ecuries.webp"
     },
@@ -123,19 +159,25 @@
         "id": 7,
         "category": "graphisme",
         "title": { 
-            "fr": "Affiche | Association", 
-            "en": "Association communication videos" },
+            "fr": "Affiche Poetikartier", 
+            "en": "Poetikartier poster" },
         "date": { 
             "fr": "Juin 2025", 
-            "en": "Juny 2025" },
+            "en": "June 2025" },
         "description": { 
-            "fr": "ehhh", 
-            "en": "ehh" },
+            "fr": "En première année de MMI, nous avons réalisé la communication de Poetikartier en groupe de cinq. C'est une association qui vise à favoriser l'art dans les diasporas. Nous avons créé un site, un communiqué de presse et plusieurs supports. J'ai réalisé seule cette affiche fictive. L'objectif était d'interpeller le public pour mieux le sensibiliser à la cause et ainsi gagner en visibilité.", 
+            "en": "During my first year in MMI, we worked in a group of five on the communication for Poetikartier. It is an association that promotes art in diasporas. We created a website, a press release, and various materials. I designed this fictional poster by myself. The goal was to catch the public's attention to raise awareness and gain visibility." },
         "context": { 
-            "fr": "Personnel", 
-            "en": "Personal" },
+            "fr": "Universitaire", 
+            "en": "Academic" },
         "languages": "",
         "software": "InDesign, Photoshop",
+        "skills": { 
+            "fr": "Graphisme, Communication", 
+            "en": "Graphics, Communication" },
+        "team": { 
+            "fr": "Seule", 
+            "en": "Solo" },
         "link": "img/projets/affiche_poetikartier.jpg",
         "image": "img/mockup/poetikartier.webp"
     },
@@ -144,18 +186,24 @@
         "category": "dev",
         "title": { 
             "fr": "Blog de recettes", 
-            "en": "Association communication videos" },
+            "en": "Recipe Blog" },
         "date": { 
             "fr": "Juin 2025", 
-            "en": "Juny 2025" },
+            "en": "June 2025" },
         "description": { 
-            "fr": "ehhh", 
-            "en": "ehh" },
+            "fr": "HayBlog est un site que j'ai réalisé seule avec le CMS WordPress. On y trouve des recettes d'entrées, de plats et de desserts. C'est un projet spécial pour moi, car j'utilisais pour la première fois un CMS après avoir passé tout un semestre à faire du code. Le site permet aussi de découvrir les créations de mes camarades. C'est ainsi que j'ai appris le fonctionnement de WordPress, notamment la gestion des pages, du header et du footer.", 
+            "en": "HayBlog is a website made with the WordPress CMS. You can find recipes for starters, main courses, and desserts. This project was special to me because it was my first time using a CMS after a semester of coding. You can also visit my classmates' websites to find more recipes. That is how I learned WordPress and how to manage pages, headers, and footers." },
         "context": { 
-            "fr": "Personnel", 
-            "en": "Personal" },
+            "fr": "Universitaire", 
+            "en": "Academic" },
         "languages": "WordPress",
         "software": "",
+        "skills": { 
+            "fr": "CMS, Gestion de contenu", 
+            "en": "CMS, Content Management" },
+        "team": { 
+            "fr": "Seule", 
+            "en": "Solo" },
         "link": "https://wpsem2.acar.projetsmmichamps.fr/",
         "image": "img/mockup/hayblog.webp"
     },
@@ -167,15 +215,21 @@
             "en": "DramaTürk" },
         "date": { 
             "fr": "Juin 2025", 
-            "en": "Juny 2025" },
+            "en": "June 2025" },
         "description": { 
-            "fr": "ehhh", 
-            "en": "ehh" },
+            "fr": "DramaTürk est un site d’inventaire que j'ai codé seule sur les séries turques. Il permet d’avoir des informations comme les acteurs, le genre ou la plateforme de diffusion. Le site utilise une base de données que l'on peut compléter via un formulaire protégé. Ce projet me tient particulièrement à cœur car je regarde ces séries depuis que je suis petite, ce qui a rendu le travail très motivant. De plus, c'est le premier site responsive que j'ai réalisé.", 
+            "en": "DramaTürk is an inventory website about Turkish TV series. It gives information like actors, genre, and streaming platforms. The site uses a database that can be updated via a secured form. This project is special to me because I have watched Turkish series since I was little. Also, it is my first responsive website." },
         "context": { 
-            "fr": "Personnel", 
-            "en": "Personal" },
+            "fr": "Universitaire", 
+            "en": "Academic" },
         "languages": "HTML, CSS, JavaScript, PHP, SQL",
         "software": "",
+        "skills": { 
+            "fr": "Front-end, Back-end, Base de données, Responsive Design", 
+            "en": "Front-end, Back-end, Database, Responsive Design" },
+        "team": { 
+            "fr": "Seule", 
+            "en": "Solo" },
         "link": "https://webinventory.acar.projetsmmichamps.fr/",
         "image": "img/mockup/dramaturk.webp"
     },
@@ -183,19 +237,25 @@
         "id": 10,
         "category": "graphisme",
         "title": { 
-            "fr": "Flyer", 
-            "en": "DramaTürk" },
+            "fr": "Flyer MC Auto", 
+            "en": "Flyer MC Auto" },
         "date": { 
             "fr": "Avril 2025", 
             "en": "April 2025" },
         "description": { 
-            "fr": "ehhh", 
-            "en": "ehh" },
+            "fr": "Pendant mon stage de première année, j'ai réalisé ce flyer pour les réseaux sociaux de l'entreprise MC Auto. Mon tuteur m'a expliqué ses attentes, et je suis passée par une étape de moodboard avant la réalisation. J'ai ensuite modifié le visuel en fonction de ses retours pour valider le résultat final. C'était une expérience nouvelle pour moi, car pour la première fois, ma création allait vraiment être utilisée !", 
+            "en": "During my first-year internship, I made this flyer for the social media of the company MC Auto. My tutor explained his needs. I started with a moodboard and then created the design. I adapted the flyer based on his feedback. It was a new experience for me because my work was actually going to be used!" },
         "context": { 
-            "fr": "Personnel", 
-            "en": "Personal" },
+            "fr": "Professionnel", 
+            "en": "Professional" },
         "languages": "",
         "software": "InDesign",
+        "skills": { 
+            "fr": "Graphisme, Relation client", 
+            "en": "Graphics, Client Relations" },
+        "team": { 
+            "fr": "Seule", 
+            "en": "Solo" },
         "link": "img/projets/flyer_stage.jpg",
         "image": "img/mockup/stage.webp"
     },
@@ -203,19 +263,25 @@
         "id": 11,
         "category": "audiovisuel",
         "title": { 
-            "fr": "Voiture", 
-            "en": "DramaTürk" },
+            "fr": "Voiture en ville", 
+            "en": "Car in town" },
         "date": { 
             "fr": "Avril 2025", 
             "en": "April 2025" },
         "description": { 
-            "fr": "ehhh", 
-            "en": "ehh" },
+            "fr": "Ce mini-projet marque ma découverte du logiciel After Effects. Je l'ai réalisé toute seule. J'ai d'abord récupéré les calques de dessins fournis par ma professeur, puis avec son aide, j'ai fait cette animation. C'est ainsi que j'ai commencé à apprendre les bases du motion.", 
+            "en": "This mini-project marks my discovery of After Effects. I did it by myself. First, I took the drawing layers from my teacher, and with her help, I made this animation. That is how I started learning the basics of motion design." },
         "context": { 
-            "fr": "Personnel", 
-            "en": "Personal" },
+            "fr": "Universitaire", 
+            "en": "Academic" },
         "languages": "",
         "software": "After Effects",
+        "skills": { 
+            "fr": "Motion Design, Animation 2D", 
+            "en": "Motion Design, 2D Animation" },
+        "team": { 
+            "fr": "Seule", 
+            "en": "Solo" },
         "link": "https://www.youtube.com/watch?v=UdRHrgP47KQ",
         "image": "img/mockup/voiture.webp"
     },
@@ -230,12 +296,18 @@
             "en": "December 2024" },
         "description": { 
             "fr": "En première année de BUT MMI, j’ai eu l’occasion de réaliser, en groupe de cinq, l’interview du directeur de la publication du quotidien La Croix, Guillaume Goubert. Nous étions entièrement responsables du projet : la prise de contact, la planification, le tournage avec du matériel professionnel ainsi que le montage. Ce projet a été particulièrement passionnant et enrichissant, car il m’a permis de monter en compétences, notamment sur l’utilisation de logiciels de montage et sur les techniques de tournage (cadrage, gestion de la lumière, prise de son, manipulation du matériel professionnel).", 
-            "en": "In my first year of BUT MMI, I had the opportunity to interview Guillaume Goubert, editor-in-chief of the daily newspaper La Croix, as part of a group of five. We were entirely responsible for the project: making contact, planning, filming with professional equipment and editing. This project was particularly exciting and rewarding, as it allowed me to develop my skills, particularly in the use of editing software and filming techniques (framing, lighting management, sound recording, handling professional equipment)." },
+            "en": "In my first year of MMI, I interviewed Guillaume Goubert, editor at La Croix, in a group of five. We managed everything: contact, planning, filming with professional cameras, and editing. This project was very interesting. I improved my skills in editing software and filming techniques like framing, lighting, and sound." },
         "context": { 
             "fr": "Universitaire", 
             "en": "Academic" },
         "languages": "",
         "software": "Premiere Pro",
+        "skills": { 
+            "fr": "Interview, cadrage, Prise de son, Montage", 
+            "en": "Interview, Filming, Sound Recording, Editing" },
+        "team": { 
+            "fr": "Groupe de 5", 
+            "en": "Group of 5" },
         "link": "https://www.youtube.com/watch?v=7x4MJbs9S0U&feature=youtu.be",
         "image": "img/mockup/interview.webp"
     }
