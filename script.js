@@ -3,7 +3,7 @@
 const imgs = document.querySelectorAll('.intro img');
 const tl = gsap.timeline();
 
-tl.to(imgs, {scale: 1, duration: 0.8, stagger:0.1, ease: "back.out(1.7)"});
+tl.to(imgs, {scale: 1, duration: 0.8, stagger:0.14, ease: "back.out(1.7)"});
 
 //----------Burger menu----------
 // https://www.youtube.com/watch?v=MQWkahv_yxg&t=2122s
@@ -95,8 +95,11 @@ const translations = {
         
         "testimonials-title": "DE LEURS MOTS",
         "testi-1": "Ayant collaboré avec Hayrunnisa sur de nombreux projets tout au long de la formation MMI, j'ai pu constater son efficacité et sa fiabilité exemplaire. Elle possède une grande capacité d'adaptation ainsi qu'un leadership naturel qui lui permet de motiver et d'encourager son équipe en toutes circonstances ! Hayrunnisa est quelqu’un de très confiante et sait mener ses objectifs à bien. Travailler à ses côtés est très agréable !",
+        "testi-1-function": "Étudiante en MMI 2",
         "testi-2": "Hayrunnisa était une stagiaire très réactive, pleine d’idées et surtout force de proposition. Elle s’est montrée très impliquée, curieuse et enthousiaste tout au long de son stage.",
-        "testi-3": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat quam maxime eius enim consequuntur deserunt dicta et cupiditate earum, libero aperiam perspiciatis, consectetur molestias. Animi repellendus optio culpa. Ex, quia.",
+        "testi-2-function": "Tuteur de stage",
+        "testi-3": "Hayrunnisa ACAR a réalisé sur notre demande pour notre Association Réussir Aujourd'hui des courtes vidéos au cours de nos universités d'été. Il s'agissait d'interviewer des étudiants participants mais aussi des professeurs et des bénévoles de l'association. Nous avons été très contents de son travail à la fois autonome, professionnel et lui avons demandé d'intervenir de nouveau pour nos Rencontres, évènement biannuel qui réunit plus de 200 personnes. Les vidéos réalisées sont utilisées pour notre communication sous forme de newsletter et sur notre site public.",
+        "testi-3-function": "Vice-Présidente de Réussir Aujourd'hui",
         "contact-title": "CONTACT",
         "contact-mail": "Mail",
         "contact-follow": "Suivez-moi",
@@ -129,8 +132,11 @@ const translations = {
 
         "testimonials-title": "TESTIMONIALS",
         "testi-1": "Having collaborated with Hayrunnisa on numerous projects throughout the MMI training programme, I have witnessed her exemplary efficiency and reliability. She is highly adaptable and possesses natural leadership skills that enable her to motivate and encourage her team in all circumstances. Hayrunnisa is a very confident person who knows how to achieve her goals. Working alongside her is a real pleasure. ",
+        "testi-1-function": "MMI 2 student",
         "testi-2": "Hayrunnisa was a very responsive intern with many ideas. She often made suggestions and proposed solutions. She was involved in her work, curious, and enthusiastic throughout her internship.",
-        "testi-3": "EN Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat quam maxime eius enim consequuntur deserunt dicta et cupiditate earum, libero aperiam perspiciatis, consectetur molestias. Animi repellendus optio culpa. Ex, quia",
+        "testi-2-function": "Internship tutor",
+        "testi-3": "Hayrunnisa ACAR produced short videos for our association, Réussir Aujourd'hui, during our summer universities. These videos involved interviews with participating students, as well as professors and volunteers from the association. We were very pleased with her work, which was both independent and professional, and asked her to participate again for our Rencontres, a biannual event that brings together more than 200 people. The videos are used for our communications, including our newsletter and on our public website.",
+        "testi-3-function": "Vice-President of Réussir Aujourd'hui",
         "contact-title": "CONTACT",
         "contact-mail": "Email",
         "contact-follow": "Follow me",
@@ -300,7 +306,6 @@ function openPopup(project) {
     document.getElementById('popup-title').textContent = project.title[currentLang];
     document.getElementById('popup-date').innerHTML = `${project.date[currentLang]}`;
     document.getElementById('popup-ctx').innerHTML = `${project.context[currentLang]}`;
-    document.getElementById('popup-skills').innerHTML = `${project.skills[currentLang]}`;
     document.getElementById('popup-img').src = project.image;
     document.getElementById('popup-desc').innerHTML = `${project.description[currentLang]}`;
     document.getElementById('popup-tools').innerHTML = `${project.software} ${project.languages}`;
