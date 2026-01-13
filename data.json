@@ -65,7 +65,7 @@
             "en": "Academic" },
         "languages": "",
         "software": "Figma, InDesign",
-        "link": "https://monsite.com",
+        "link": "img/campagne_fete.pdf",
         "image": "img/campagne.webp"
     },
     {
@@ -116,7 +116,7 @@
     },
     {
         "id": 6,
-        "category": "dev",
+        "category": "audiovisuel",
         "title": { 
             "fr": "Vidéos de communication association", 
             "en": "Association communication videos" },
@@ -157,7 +157,7 @@
             "en": "Personal" },
         "languages": "",
         "software": "InDesign, Photoshop",
-        "link": "https://www.youtube.com/watch?v=TAEajnBebkA&list=PL1G1injbok9J_z4-xwpv6cfmhmMZgiiQc",
+        "link": "img/poetikartier.webp",
         "image": "img/poetikartier.webp"
     },
     {
@@ -226,7 +226,7 @@
             "en": "Personal" },
         "languages": "",
         "software": "InDesign",
-        "link": "",
+        "link": "img/stage.webp",
         "image": "img/stage.webp"
     },
     {
